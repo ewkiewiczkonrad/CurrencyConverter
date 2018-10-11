@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView_currency"
+        android:layout_width="76dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="38dp"
+        android:text="textview" />
+
+    <TextView
+        android:id="@+id/textView_buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="208dp"
+        android:text="textview" />
+
+    <TextView
+        android:id="@+id/textView_sell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView_currency"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="203dp"
+        android:layout_marginTop="39dp"
+        android:text="textview" />
+
+    <TextView
+        android:id="@+id/textView_currencyBuy"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignEnd="@+id/textView_buy"
+        android:layout_alignBottom="@+id/textView_currency"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="5dp"
+        android:text="textview" />
+
+    <TextView
+        android:id="@+id/textView_currencySell"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/textView_sell"
+        android:layout_alignTop="@+id/textView_currencyBuy"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="0dp"
+        android:text="textview" />
+</RelativeLayout>
